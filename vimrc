@@ -16,14 +16,6 @@ nnoremap >e :Explore<CR>
 nnoremap >w <C-w>
 nnoremap >W <C-w><C-p>
 
-" CtrlP
-nnoremap >p :CtrlP<CR>
-
-" NERDTree
-nnoremap >n :NERDTreeFocus<CR>
-" }}}
-"
-
 if has('win32')
      command Cmd silent! !start
      command EditHosts silent e C:\Windows\System32\drivers\etc\hosts
