@@ -1,5 +1,5 @@
+" lightline
 let g:lightline = {
-            \ 'colorscheme': 'codeschool',
             \ 'active': {
             \   'left': [ [ 'mode', 'paste' ],
             \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
@@ -8,4 +8,7 @@ let g:lightline = {
             \   'gitbranch': 'fugitive#head'
             \ },
             \ }
+
+" XPTemplate config
+let g:xptemplate_key = '><Tab>'
 

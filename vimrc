@@ -15,3 +15,8 @@ runtime! mapping.vim
 if has('win32')
     runtime! win32.vim
 end
+
+if has('osx')
+    runtime! osx.vim
+end
+
