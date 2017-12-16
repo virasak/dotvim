@@ -9,3 +9,4 @@ git clone https://github.com/tpope/vim-fugitive.git
 git clone https://github.com/tpope/vim-repeat.git
 git clone https://github.com/tpope/vim-surround.git
 git clone https://github.com/tpope/vim-unimpaired.git
+git clone https://github.com/drmingdrmer/xptemplate.git
