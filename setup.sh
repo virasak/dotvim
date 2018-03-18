@@ -10,3 +10,4 @@ git clone https://github.com/tpope/vim-repeat.git
 git clone https://github.com/tpope/vim-surround.git
 git clone https://github.com/tpope/vim-unimpaired.git
 git clone https://github.com/drmingdrmer/xptemplate.git
+git clone https://github.com/virasak/vim-bufswitcher.git

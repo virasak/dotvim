@@ -5,3 +5,7 @@ end
 if exists(":CtrlP")
     nnoremap >p :CtrlP<CR>
 end
+
+if exists(":BufSwitcherOpen")
+    nnoremap >b :BufSwitcherOpen<CR>
+end
