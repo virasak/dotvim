@@ -13,3 +13,5 @@ git clone https://github.com/tpope/vim-unimpaired.git
 git clone https://github.com/drmingdrmer/xptemplate.git
 git clone https://github.com/virasak/vim-bufswitcher.git
 git clone https://github.com/elixir-editors/vim-elixir.git
+git clone https://github.com/junegunn/fzf.vim.git
+ln -s /usr/local/opt/fzf fzf
