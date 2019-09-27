@@ -2,11 +2,11 @@ if exists(":NERDTree")
     nnoremap >n :NERDTreeFocus<CR>
 end
 
-if exists(":BufSwitcherOpen")
-    nnoremap >b :BufSwitcherOpen<CR>
-end
-
 if exists(":FZF")
-    nnoremap >f :FZF<CR>
+    nnoremap >f :GFiles<CR>
+    nnoremap >F :Files<CR>
     nnoremap >s :Ag<CR>
+    nnoremap >r :Rg<CR>
+    nnoremap >t :Tags<CR>
+    nnoremap >b :Buffers<CR>
 end
