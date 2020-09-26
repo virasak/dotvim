@@ -1,14 +1,10 @@
 let mapleader=" "
 set nocompatible
 
-execute pathogen#infect()
-
 filetype plugin indent on
 syntax on
 
 runtime! settings.vim
-
-colorscheme vividchalk
 
 runtime! mapping.vim
 
@@ -20,3 +16,5 @@ if has('osx')
     runtime! osx.vim
 end
 
+set background=dark
+color jellybeans
